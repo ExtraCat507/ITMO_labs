@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<all>
+        <data type="list">
+                <item type="dict">
+                        <day_number type="int">1</day_number>
+                        <week_number type="int">11</week_number>
+                        <date type="str">2024-10-28</date>
+                        <lessons type="list">
+                                <item type="dict">
+                                        <pair_id type="int">20485759434</pair_id>
+                                        <subject type="str">Линейная алгебра (продвинутый уровень)</subject>
+                                        <type type="str">Лекции</type>
+                                        <time_start type="str">15:20</time_start>
+                                        <time_end type="str">16:50</time_end>
+                                        <teacher_id type="int">318424</teacher_id>
+                                        <teacher_name type="str">Карпов Дмитрий Валерьевич</teacher_name>
+                                        <room type="str">1404</room>
+                                        <building type="str">Кронверкский пр., д.49, лит.А</building>
+                                        <format type="str">Очно - дистанционный </format>
+                                        <work_type type="str">Лекции</work_type>
+                                        <work_type_id type="int">1</work_type_id>
+                                        <group type="str">Лин Алг Прод 11</group>
+                                </item>
+                                <item type="dict">
+                                        <pair_id type="int">20485759555</pair_id>
+                                        <subject type="str">Линейная алгебра (продвинутый уровень)</subject>
+                                        <type type="str">Практические занятия</type>
+                                        <time_start type="str">17:00</time_start>
+                                        <time_end type="str">18:30</time_end>
+                                        <teacher_id type="NoneType">None</teacher_id>
+                                        <teacher_name type="NoneType">None</teacher_name>
+                                        <room type="str">2414</room>
+                                        <building type="str">Кронверкский пр., д.49, лит.А</building>
+                                        <format type="str">Очно - дистанционный </format>
+                                        <work_type type="str">Практические занятия</work_type>
+                                        <work_type_id type="int">3</work_type_id>
+                                        <group type="str">Лин Алг Прод 11.4</group>
+                                </item>
+                        </lessons>
+                </item>
+                <item type="dict">
+                        <day_number type="int">6</day_number>
+                        <week_number type="int">11</week_number>
+                        <date type="str">2024-11-02</date>
+                        <lessons type="list">
+                                <item type="dict">
+                                        <pair_id type="int">20878638298</pair_id>
+                                        <subject type="str">Математический анализ (продвинутый уровень)</subject>
+                                        <type type="str">Лекции</type>
+                                        <time_start type="str">08:20</time_start>
+                                        <time_end type="str">09:50</time_end>
+                                        <teacher_id type="int">153941</teacher_id>
+                                        <teacher_name type="str">Холодова Светлана Евгеньевна</teacher_name>
+                                        <room type="str">1405</room>
+                                        <building type="str">Кронверкский пр., д.49, лит.А</building>
+                                        <format type="str">Очно - дистанционный </format>
+                                        <work_type type="str">Лекции</work_type>
+                                        <work_type_id type="int">1</work_type_id>
+                                        <group type="str">Мат Ан Прод 11</group>
+                                </item>
+                                <item type="dict">
+                                        <pair_id type="int">20746645941</pair_id>
+                                        <subject type="str">Специальные разделы математического анализа</subject>
+                                        <type type="str">Лекции</type>
+                                        <time_start type="str">10:00</time_start>
+                                        <time_end type="str">11:30</time_end>
+                                        <teacher_id type="int">153941</teacher_id>
+                                        <teacher_name type="str">Холодова Светлана Евгеньевна</teacher_name>
+                                        <room type="str">1405</room>
+                                        <building type="str">Кронверкский пр., д.49, лит.А</building>
+                                        <format type="str">Очно - дистанционный </format>
+                                        <work_type type="str">Лекции</work_type>
+                                        <work_type_id type="int">1</work_type_id>
+                                        <group type="str">Ф Мат Ан Прод 11</group>
+                                </item>
+                                <item type="dict">
+                                        <pair_id type="int">19919513852</pair_id>
+                                        <subject type="str">Английский язык B2</subject>
+                                        <type type="str">Практические занятия</type>
+                                        <time_start type="str">11:40</time_start>
+                                        <time_end type="str">13:10</time_end>
+                                        <teacher_id type="int">228108</teacher_id>
+                                        <teacher_name type="str">Яковлева Ольга Александровна</teacher_name>
+                                        <room type="str">3209</room>
+                                        <building type="str">ул.Ломоносова, д.9, лит. Е</building>
+                                        <format type="str">Очно - дистанционный </format>
+                                        <work_type type="str">Практические занятия</work_type>
+                                        <work_type_id type="int">3</work_type_id>
+                                        <group type="str">АЯ-B2/55</group>
+                                </item>
+                                <item type="dict">
+                                        <pair_id type="int">19919513970</pair_id>
+                                        <subject type="str">Английский язык B2</subject>
+                                        <type type="str">Практические занятия</type>
+                                        <time_start type="str">13:30</time_start>
+                                        <time_end type="str">15:00</time_end>
+                                        <teacher_id type="int">228108</teacher_id>
+                                        <teacher_name type="str">Яковлева Ольга Александровна</teacher_name>
+                                        <room type="str">3209</room>
+                                        <building type="str">ул.Ломоносова, д.9, лит. Е</building>
+                                        <format type="str">Очно - дистанционный </format>
+                                        <work_type type="str">Практические занятия</work_type>
+                                        <work_type_id type="int">3</work_type_id>
+                                        <group type="str">АЯ-B2/55</group>
+                                </item>
+                                <item type="dict">
+                                        <pair_id type="int">21482946718</pair_id>
+                                        <subject type="str">Реформы и реформаторы в истории России</subject>
+                                        <type type="str">Лекции</type>
+                                        <time_start type="str">17:00</time_start>
+                                        <time_end type="str">18:30</time_end>
+                                        <teacher_id type="int">275327</teacher_id>
+                                        <teacher_name type="str">Вычеров Дмитрий Александрович</teacher_name>
+                                        <room type="NoneType">None</room>
+                                        <building type="NoneType">None</building>
+                                        <format type="str">Дистанционный </format>
+                                        <work_type type="str">Лекции</work_type>
+                                        <work_type_id type="int">1</work_type_id>
+                                        <group type="str">ИРР 2</group>
+                                </item>
+                                <item type="dict">
+                                        <pair_id type="int">21482946824</pair_id>
+                                        <subject type="str">Реформы и реформаторы в истории России</subject>
+                                        <type type="str">Практические занятия</type>
+                                        <time_start type="str">18:40</time_start>
+                                        <time_end type="str">20:10</time_end>
+                                        <teacher_id type="int">275327</teacher_id>
+                                        <teacher_name type="str">Вычеров Дмитрий Александрович</teacher_name>
+                                        <room type="NoneType">None</room>
+                                        <building type="NoneType">None</building>
+                                        <format type="str">Дистанционный </format>
+                                        <work_type type="str">Практические занятия</work_type>
+                                        <work_type_id type="int">3</work_type_id>
+                                        <group type="str">ИРР 2.2</group>
+                                </item>
+                        </lessons>
+                </item>
+        </data>
+</all>
