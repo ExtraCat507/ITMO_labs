@@ -41,7 +41,7 @@ def replaceSolution(path=r"ITMO_Labs\Informatics\lab4\response.json"):
         tag_end = line.find('>')
         line = line + line[tag_front:tag_front+1] + '/' + line[tag_front+1:tag_end+1]+'\n'
         newline+=line
-    with open(r"ITMO_Labs\Informatics\lab4\replaceSolutionReturn.xml", "w",encoding='utf-8') as f:
+    with open(r"replaceSolutionReturn.xml", "w",encoding='utf-8') as f:
         f.write(newline)
 
 replaceSolution()
@@ -52,7 +52,7 @@ replaceSolution()
 def libSolution(path=r"ITMO_Labs\Informatics\lab4\response.json"):
     data = readfromjson(path)
     res = json2xml.Json2xml(data).to_xml()
-    with open(r"ITMO_Labs\Informatics\lab4\libSolutionReturn.xml", "w",encoding='utf-8') as f:
+    with open(r"libSolutionReturn.xml", "w",encoding='utf-8') as f:
         f.write(res)
 
 libSolution()
@@ -78,7 +78,7 @@ def regExSolution(path=r"ITMO_Labs\Informatics\lab4\response.json"):
         return '<' + match.group(1)+'>' + match.group(2) +"</" + match.group(1) + ">"
     xml_str = re.sub(r'<(\w+)>(.+)', closeTag, xml_str)
 
-    with open(r"ITMO_Labs\Informatics\lab4\regExSolutionReturn.xml", "w",encoding='utf-8') as f:
+    with open(r"regExSolutionReturn.xml", "w",encoding='utf-8') as f:
         f.write(xml_str)
 
 regExSolution()
@@ -108,7 +108,7 @@ def grammarSolution(path=r"ITMO_Labs\Informatics\lab4\response.json"):
             file.write(str(node))
 
     data = readfromjson(path)
-    with open(r"ITMO_Labs\Informatics\lab4\grammarSolutionReturn.xml", "w",encoding='utf-8') as f:
+    with open(r"grammarSolutionReturn.xml", "w",encoding='utf-8') as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<all>')
         recursivePrint(data, 1,f)
         f.write('</all>\n')
