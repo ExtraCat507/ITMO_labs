@@ -5,7 +5,7 @@ TAB = 8
 
 # Замена тэгов на другие - Задание 1
 
-def replaceSolution(path=r"ITMO_Labs\Informatics\lab4\response.json"):
+def replaceSolution(path=r"response.json"):
     with open(path, 'r', encoding='utf-8') as f:
         json_str = f.read()
     
@@ -49,7 +49,7 @@ replaceSolution()
 
 
 # Библиотеки - Задание 2
-def libSolution(path=r"ITMO_Labs\Informatics\lab4\response.json"):
+def libSolution(path=r"response.json"):
     data = readfromjson(path)
     res = json2xml.Json2xml(data).to_xml()
     with open(r"libSolutionReturn.xml", "w",encoding='utf-8') as f:
@@ -61,7 +61,7 @@ libSolution()
 
 # Регулярные выражения - Задание 3
 import re
-def regExSolution(path=r"ITMO_Labs\Informatics\lab4\response.json"):
+def regExSolution(path=r"response.json"):
     with open(path, 'r', encoding='utf-8') as f:
         json_str = f.read()
     
@@ -86,7 +86,7 @@ regExSolution()
 
 
 # Формальная грамматика (рекурсивный спуск) - Задание 4
-def grammarSolution(path=r"ITMO_Labs\Informatics\lab4\response.json"):
+def grammarSolution(path=r"response.json"):
     def recursivePrint(node, depth,file):
         if isinstance(node, dict):
             file.write("\n")
